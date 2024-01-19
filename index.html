@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+    />
+    <title>Aubrey Sherman</title>
+  </head>
+  <div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li id="socials"><a href="https://github.com/aubrey-sherman">GitHub</a></li>
+        </ul>
+      </nav>
+      <div id="home" class="home">
+        <h2>Hi! I'm Aubrey.</h2>
+        <img src="profile.png" class="pic">
+      </div>
+      </header>
+
+      <div id="about" class="about">
+      <h2>About Me</h2>
+      <p class="abouttext">
+        I'm an aspiring software developer based in New York City. I love cooking,
+        drawing, playing New York Times' Connections, and collecting books at a
+        faster rate than I can read them. In my free time, I run a fan club for
+        pretzel m&ms.
+      </p>
+    </div>
+
+      <hr />
+      <div id="resume" class="resume">
+      <h2>Résumé</h2>
+      <h4>Learn more about my background and skills <a href="sherman-resume.pdf">here.</a></h4>
+    </div>
+      <hr />
+      <div id="contact" class="contact">
+      <h2>Contact</h2>
+      <h4><i>I'd love to hear from you!</i></h4>
+      <form id="contactform">
+        <label for="fname" class="required">First name</label>
+        <p>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Your first name"
+            required
+          />
+        </p>
+        <p>
+          <label for="lname" class="required">Last name</label>
+        </p>
+        <p>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Your last name"
+            required
+          />
+        </p>
+        <p>
+          <label for="email" class="required">Email</label>
+        </p>
+        <p>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="e.g. me@myself.com"
+            required
+          />
+        </p>
+        <p>
+          <label for="message" class="required">Message</label>
+        </p>
+        <p><input type="text" id="message" name="message" required /><br /></p>
+        <p>
+          <input id="submitbutton" type="submit" value="SUBMIT" />
+        </p>
+        <hr />
+      </form>
+      <footer id="footer">2024 Aubrey Sherman</footer>
+    </div>
+      </div>
+    </body>
+</html>
